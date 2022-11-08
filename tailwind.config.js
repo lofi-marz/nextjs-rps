@@ -18,8 +18,12 @@ module.exports = {
             colors: {
                 primary: colors.red[500],
                 secondary: colors.orange[500],
+                dark: colors.neutral,
             },
         },
     },
-    plugins: [require('@tailwindcss/typography')],
+    plugins: [
+        require('@tailwindcss/forms'),
+        require('@tailwindcss/typography'),
+    ],
 };

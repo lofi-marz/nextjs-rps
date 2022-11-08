@@ -1,0 +1,9 @@
+
+
+.triangle {
+    align-items: flex-end;
+}
+
+.triangle:nth-child(2) {
+    align-self: flex-start;
+}
