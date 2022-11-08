@@ -2,7 +2,6 @@ import { RPSIcon } from '@/components/rps/RPSIcon';
 import styles from './RPSControls.module.css';
 import clsx from 'clsx';
 export function RPSControls() {
-    const onSubmit = (data) => console.log(data);
     return (
         <div
             className={clsx(
