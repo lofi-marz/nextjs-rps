@@ -5,8 +5,7 @@ import {
     FaHandScissors,
     FaLock,
 } from 'react-icons/fa';
-
-type Hand = 'rock' | 'paper' | 'scissors';
+import { Hand } from '../../rps/rps';
 
 function HandIcon({ hand }: { hand: Hand }) {
     switch (hand) {
