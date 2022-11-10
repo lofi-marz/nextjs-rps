@@ -2,27 +2,26 @@
 
 
 .triangle {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-            ". top ."
-            ". center ."
-            "left . right";
-;
+    position: relative;
+}
+
+.triangle div {
+    position: absolute;
 }
 
 .triangle div:nth-child(1) {
-    grid-area: center;
+    margin-top: 10%;
 }
 
 .triangle div:nth-child(2) {
-    grid-area: top;
+    top: 0;
 }
 
 .triangle div:nth-child(3) {
-    grid-area: left;
+    bottom: 0;
+    left: 0;
 }
 .triangle div:nth-child(4) {
-    grid-area: right;
+    bottom: 0;
+    right: 0;
 }
